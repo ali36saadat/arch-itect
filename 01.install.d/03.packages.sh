@@ -5,7 +5,7 @@ desktop=(
   lxappearance
   alacritty
   bat
-  copyq
+  clipvault
   curlie
   duf
   emojify
