@@ -39,6 +39,7 @@ dev=(
   python
   python-pip
   rlwrap
+  rsync
   rustup
   sed
   shellcheck
