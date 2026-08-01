@@ -30,6 +30,7 @@ dev=(
   lm_sensors
   make
   mtools
+  neovim
   net-tools
   nmap
   ntp
@@ -43,12 +44,12 @@ dev=(
   rustup
   sed
   shellcheck
-  sudo
   shfmt
+  sudo
   tree
   unrar
   unzip
-  neovim
+  uv
   wget
   which
   xdg-user-dirs
