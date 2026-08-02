@@ -32,6 +32,14 @@ fonts=(
   ttf-roboto
   ttf-yosemite-san-francisco-font-git
   vazir-fonts
+
+  # quickshell
+  otf-space-grotesk
+  ttf-jetbrains-mono-nerd
+  ttf-material-symbols-variable-git
+  ttf-readex-pro
+  ttf-rubik-vf
+  ttf-twemoji
 )
 
 for font in "${fonts[@]}"; do
