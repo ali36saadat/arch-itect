@@ -25,7 +25,6 @@ desktop=(
   pavucontrol
   tumbler
   exa
-  kvantum
   termdown
   tesseract
   tesseract-data-eng
