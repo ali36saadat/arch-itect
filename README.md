@@ -1,4 +1,4 @@
-# ARCH-ITECT
+## ARCH-ITECT
 ![ARCHITECT - Header](https://github.com/user-attachments/assets/ac52abe8-1a78-423b-a342-b355b835138f)
 
 [Arch Linux](https://www.archlinux.org/) bootstrap scripts. Forked from [ASafaeirad - architect](https://github.com/ASafaeirad/architect)
