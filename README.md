@@ -1,21 +1,25 @@
-# Architect script
+# ARCH-ITECT
+![ARCHITECT - Header](https://github.com/user-attachments/assets/ac52abe8-1a78-423b-a342-b355b835138f)
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ASafaeirad/architect/main/resources/logo-dark.svg#gh-dark-mode-only" width="500" alt="logo">
-  <img src="https://raw.githubusercontent.com/ASafaeirad/architect/main/resources/logo-light.svg#gh-light-mode-only" width="500" alt="logo">
-</div>
+[Arch Linux](https://www.archlinux.org/) bootstrap scripts. Forked from [ASafaeirad - architect](https://github.com/ASafaeirad/architect)
 
-[Arch Linux](https://www.archlinux.org/) bootstrap scripts.
-
-> ⚠️ **Disclaimer**: This repository is not opinionated about your dotfiles and configurations.
+> [!NOTE]
+> **Disclaimer**: This repository is not opinionated about your dotfiles and configurations.
 
 ## Usage
-
+1: Clone
 ```bash
-  $ git clone https://github.com/ASafaeirad/architect.git && cd architect
-  $ ./init.sh
-  $ ./install.sh
-  $ ./config.sh
+  git clone https://github.com/Ali36Sadaat/arch-itect.git && cd arch-itect
+```
+2: Run Bash ( `setup.sh` is recommended )
+```bash
+  ./setup.sh
+```
+or
+```bash
+  ./init.sh
+  ./install.sh
+  ./config.sh
 ```
 
 ## What's included
@@ -56,16 +60,3 @@
 | `gpg`   | generates [gpg](https://wiki.archlinux.org/title/GnuPG) key                     |
 | `npm`   | generates [npmrc](https://docs.npmjs.com/cli/v8/configuring-npm/npmrc/)         |
 | `git`   | generates [git configuration](https://www.git-scm.com/docs/git-config)          |
-
-## Feedback
-
-Suggestions and improvements are [welcomed](https://github.com/ASafaeirad/dotfiles/issues/)!
-
-## Related
-
-* [SKill dotfiles](https://github.com/ASafaeirad/dotfiles/)
-* [oh-my-zsh-skill-theme](https://github.com/ASafaeirad/oh-my-zsh-skill-theme/)
-
-[aur-helper]: [https://wiki.archlinux.org/title/AUR_helpers]
-[paru]: [https://github.com/Morganamilo/paru]
-[reflector]: [https://wiki.archlinux.org/title/reflector]
