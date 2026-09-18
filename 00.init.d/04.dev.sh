@@ -6,56 +6,56 @@ dev=(
   alsa-utils
   autoconf
   automake
-  bind-tools
   binutils
   curl
   dosfstools
-  entr
-  fd
   file
   findutils
-  fx
   fzf
   gawk
   gcc
   git
-  git-delta
-  github-cli
   go
   grep
   gzip
-  inxi
-  jq
   less
   lm_sensors
   make
-  mtools
   neovim
-  net-tools
-  nmap
-  ntp
   patch
-  perl-rename
   pkgconf
   python
   python-pip
-  rlwrap
   rsync
-  rustup
   sed
-  shellcheck
-  shfmt
   sudo
-  tree
   unrar
   unzip
-  uv
   wget
   which
   xdg-user-dirs
   xdg-utils
   zip
   zsh
+  uv
+  tree
+  # shellcheck
+  # shfmt
+  # rustup
+  # rlwrap
+  # perl-rename
+  # net-tools
+  # nmap
+  # ntp
+  # mtools
+  # inxi
+  # jq
+  # git-delta
+  # github-cli
+  # fx
+  # entr
+  # fd
+  # bind-tools
 )
 
 title "Installing dev packages..."
