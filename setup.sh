@@ -5,18 +5,18 @@ sudo -v || exit 1
 main_menu_items=("Automatic" "Manual" "Exit")
 
 init_scripts=("00.timezone.sh" "01.sudoer.sh" "02.fix-watchers.sh" "03.mirrors.sh" "04.dev.sh" "05.touchpad.sh" "06.bluetooth.sh" "07.audio.sh")
-# install_scripts=("01.paru.sh" "02.xorg.sh" "03.packages.sh" "04.apps.sh" "05.fonts.sh" "06.tmux.sh" "07.docker.sh" "08.omz.sh" "09.virtualbox.sh" "10.wayland.sh" "11.hyprpm.sh")
+install_scripts=("01.paru.sh" "02.xorg.sh" "03.packages.sh" "04.apps.sh" "05.fonts.sh" "06.tmux.sh" "07.docker.sh" "08.omz.sh" "09.virtualbox.sh" "10.wayland.sh" "11.hyprpm.sh")
 
 init_selected=()
-# install_selected=()
+install_selected=()
 
 for ((i = 0; i < ${#init_scripts[@]}; i++)); do
 	init_selected[i]=0
 done
 
-# for ((i = 0; i < ${#install_scripts[@]}; i++)); do
-# 	install_selected[i]=0
-# done
+for ((i = 0; i < ${#install_scripts[@]}; i++)); do
+	install_selected[i]=0
+done
 
 main_menu() {
 	local cursor=0
