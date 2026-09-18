@@ -1,10 +1,12 @@
 #!/bin/bash
 . "$(dirname "$BASH_SOURCE")/../utils.sh"
 
-if groups "$USER" | grep -qw "wheel"; then
-    progress "$USER is already in wheel group"
+RULE="$USER ALL=(ALL) ALL"
+SUDOER="/etc/sudoers"
+if sudo grep -Fxq "$RULE" "$SUDOER"; then
+  progress "$USER already exists in sudoers"
 else
-    title "Adding $USER to wheel group"
-    sudo usermod -aG wheel "$USER"
-    progress "Done!"
+  title "Adding $USER to sudoers"
+  echo $RULE | sudo tee -a $SUDOER >/dev/null
+  progress "Done!"
 fi
