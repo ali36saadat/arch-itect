@@ -2,15 +2,11 @@
 . "$(dirname "$BASH_SOURCE")/../utils.sh"
 
 apps=(
-  anydesk
-  brave-bin
-  discord
+  brave-origin
   firefox
   pcmanfm
+  thunar
   peek
-  persepolis-git
-  slack-desktop
-  obsidian
   telegram-desktop-bin
   visual-studio-code-bin
   notion-app
