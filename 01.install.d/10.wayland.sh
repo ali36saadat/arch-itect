@@ -13,11 +13,13 @@ backlight=(
 
 themes=(
   matugen
+  nitrogen
   bibata-cursor-theme-bin
 )
 
 hyprland=(
   hyprland
+  hyprlock
   hyprsunset
   hypridle
   hyprpicker

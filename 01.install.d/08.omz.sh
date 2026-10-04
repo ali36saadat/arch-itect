@@ -24,11 +24,11 @@ git clone https://github.com/zsh-users/zsh-completions "$OMZ_CUSTOM/plugins/zsh-
 
 progress "Done"
 
-title "Install Skill Theme"
-rmexist "$OMZ_CUSTOM/themes/skill-zsh.theme"
-wget https://raw.githubusercontent.com/ASafaeirad/oh-my-zsh-skill-theme/master/skill.zsh-theme -P "$OMZ_CUSTOM/themes/"
+# title "Install Skill Theme"
+# rmexist "$OMZ_CUSTOM/themes/skill-zsh.theme"
+# wget https://raw.githubusercontent.com/ASafaeirad/oh-my-zsh-skill-theme/master/skill.zsh-theme -P "$OMZ_CUSTOM/themes/"
 
-progress "Done"
+# progress "Done"
 
 title "Install forgit"
 rmexist "$OMZ_CUSTOM/plugins/zsh-forgit"
