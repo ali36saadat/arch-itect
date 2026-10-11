@@ -1,29 +1,29 @@
-# Architect script
+# ARCH-ITECT
+<a href="https://ali36saadat.github.io/repositories/dotfiles">
+  <img src="https://github.com/user-attachments/assets/f2e6fb1c-d08f-4b2a-b590-86fc3eb7a136" alt="header">
+</a>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ASafaeirad/architect/main/resources/logo-dark.svg#gh-dark-mode-only" width="500" alt="logo">
-  <img src="https://raw.githubusercontent.com/ASafaeirad/architect/main/resources/logo-light.svg#gh-light-mode-only" width="500" alt="logo">
-</div>
-
-[Arch Linux](https://www.archlinux.org/) bootstrap scripts.
-
-> ⚠️ **Disclaimer**: This repository is not opinionated about your dotfiles and configurations.
+## Description
+[Arch Linux](https://www.archlinux.org/) bootstrap scripts. Forked from [ASafaeirad - architect](https://github.com/ASafaeirad/architect)
+> [!NOTE]
+> **Disclaimer**: This repository is not opinionated about your dotfiles and configurations
 
 ## Usage
-
-For a local checkout:
-
+1: Clone
 ```bash
-  $ git clone https://github.com/ASafaeirad/architect.git && cd architect
-  $ ./init.sh
-  $ ./install.sh
-  $ ./config.sh
+  git clone https://github.com/Ali36Saadat/arch-itect.git
+  cd architect
 ```
 
-To run the setup menu directly from GitHub without cloning:
-
-```bash
-  $ bash <(curl -fsSL https://raw.githubusercontent.com/ali36saadat/arch-itect/main/setup.sh)
+2: Run scripts
+```
+  ./setup.sh
+```
+or
+```
+  ./init.sh
+  ./install.sh
+  ./config.sh
 ```
 
 ## What's included
