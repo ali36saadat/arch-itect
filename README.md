@@ -27,9 +27,7 @@ To run the setup menu directly from GitHub without cloning:
 ```
 
 ## What's included
-
 ### init.d
-
 | script        | description                                                                                               |
 | ------------- | --------------------------------------------------------------------------------------------------------- |
 | `timezone`    | enables [NTP](https://wiki.archlinux.org/title/Network_Time_Protocol_daemon) and adjust the clock.        |
@@ -42,7 +40,6 @@ To run the setup menu directly from GitHub without cloning:
 | `audio`       | installs [Pipewire](https://pipewire.org/)                                                                |
 
 ### install.d
-
 | script       | description                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | `paru`       | installs [paru][paru] [AUR helper][aur-helper].                                                                              |
@@ -56,22 +53,8 @@ To run the setup menu directly from GitHub without cloning:
 | `virtualbox` | installs [virtualbox](https://www.virtualbox.org//)                                                                          |
 
 ### config.d
-
 | script  | description                                                                     |
 | ------- | ------------------------------------------------------------------------------- |
 | `shell` | changes default shell [zsh](https://www.zsh.org/).                              |
 | `gpg`   | generates [gpg](https://wiki.archlinux.org/title/GnuPG) key                     |
 | `git`   | generates [git configuration](https://www.git-scm.com/docs/git-config)          |
-
-## Feedback
-
-Suggestions and improvements are [welcomed](https://github.com/ASafaeirad/dotfiles/issues/)!
-
-## Related
-
-* [SKill dotfiles](https://github.com/ASafaeirad/dotfiles/)
-* [oh-my-zsh-skill-theme](https://github.com/ASafaeirad/oh-my-zsh-skill-theme/)
-
-[aur-helper]: [https://wiki.archlinux.org/title/AUR_helpers]
-[paru]: [https://github.com/Morganamilo/paru]
-[reflector]: [https://wiki.archlinux.org/title/reflector]
