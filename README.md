@@ -11,11 +11,19 @@
 
 ## Usage
 
+For a local checkout:
+
 ```bash
   $ git clone https://github.com/ASafaeirad/architect.git && cd architect
   $ ./init.sh
   $ ./install.sh
   $ ./config.sh
+```
+
+To run the setup menu directly from GitHub without cloning:
+
+```bash
+  $ bash <(curl -fsSL https://raw.githubusercontent.com/ali36saadat/arch-itect/main/setup.sh)
 ```
 
 ## What's included
@@ -52,9 +60,7 @@
 | script  | description                                                                     |
 | ------- | ------------------------------------------------------------------------------- |
 | `shell` | changes default shell [zsh](https://www.zsh.org/).                              |
-| `ssh`   | generates `ED25519`  [ssh](https://wiki.archlinux.org/title/Secure_Shell) keys. |
 | `gpg`   | generates [gpg](https://wiki.archlinux.org/title/GnuPG) key                     |
-| `npm`   | generates [npmrc](https://docs.npmjs.com/cli/v8/configuring-npm/npmrc/)         |
 | `git`   | generates [git configuration](https://www.git-scm.com/docs/git-config)          |
 
 ## Feedback

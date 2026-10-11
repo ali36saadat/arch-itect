@@ -39,23 +39,6 @@ dev=(
   zsh
   uv
   tree
-  # shellcheck
-  # shfmt
-  # rustup
-  # rlwrap
-  # perl-rename
-  # net-tools
-  # nmap
-  # ntp
-  # mtools
-  # inxi
-  # jq
-  # git-delta
-  # github-cli
-  # fx
-  # entr
-  # fd
-  # bind-tools
 )
 
 title "Installing dev packages..."
