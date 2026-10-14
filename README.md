@@ -28,6 +28,7 @@ or
 
 ## What's included
 ### init.d
+
 | script        | description                                                                                               |
 | ------------- | --------------------------------------------------------------------------------------------------------- |
 | `timezone`    | enables [NTP](https://wiki.archlinux.org/title/Network_Time_Protocol_daemon) and adjust the clock.        |
@@ -40,6 +41,7 @@ or
 | `audio`       | installs [Pipewire](https://pipewire.org/)                                                                |
 
 ### install.d
+
 | script       | description                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | `paru`       | installs [paru][paru] [AUR helper][aur-helper].                                                                              |
@@ -53,6 +55,7 @@ or
 | `virtualbox` | installs [virtualbox](https://www.virtualbox.org//)                                                                          |
 
 ### config.d
+
 | script  | description                                                                     |
 | ------- | ------------------------------------------------------------------------------- |
 | `shell` | changes default shell [zsh](https://www.zsh.org/).                              |
