@@ -1,6 +1,6 @@
 # ARCH-ITECT
 <a href="https://ali36saadat.github.io/repositories/dotfiles">
-  <img src="https://github.com/user-attachments/assets/f2e6fb1c-d08f-4b2a-b590-86fc3eb7a136" alt="header">
+  <img src="https://github.com/user-attachments/assets/54b8431e-9d50-4167-8000-23d7f62ffc56" alt="header">
 </a>
 
 ## Description
