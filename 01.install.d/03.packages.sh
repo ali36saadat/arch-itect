@@ -32,6 +32,7 @@ desktop=(
   fontconfig
   fuse2
   texlivef
+  pandoc
 )
 
 title "Installing desktop apps..."
