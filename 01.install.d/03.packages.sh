@@ -30,6 +30,8 @@ desktop=(
   tesseract-data-eng
   yt-dlp
   fontconfig
+  fuse2
+  texlivef
 )
 
 title "Installing desktop apps..."
