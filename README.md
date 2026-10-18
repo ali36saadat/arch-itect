@@ -4,7 +4,7 @@
 </a>
 
 ## Description
-[Arch Linux](https://www.archlinux.org/) bootstrap scripts. Forked from [ASafaeirad - architect](https://github.com/ASafaeirad/architect)
+[Arch Linux](https://www.archlinux.org/) bootstrap scripts. Fork of [ASafaeirad - architect](https://github.com/ASafaeirad/architect)
 > [!NOTE]
 > **Disclaimer**: This repository is not opinionated about your dotfiles and configurations
 
