@@ -1,0 +1,26 @@
+name: Update Website Post
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger website sync
+        env:
+          GH_TOKEN: ${{ secrets.SITE_REPO_TOKEN }}
+        run: |
+          gh api \
+            --method POST \
+            repos/ali36saadat/ali36saadat.github.io/dispatches \
+            -f event_type=update-project-post \
+            -f 'client_payload[repo]=ali36saadat/arch-itect' \
+            -f 'client_payload[post]=_posts/2026-09-29-arch-itect.md'
