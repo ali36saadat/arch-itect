@@ -1,5 +1,5 @@
 # ARCH-ITECT
-[![Image description](https://github.com/user-attachments/assets/54b8431e-9d50-4167-8000-23d7f62ffc56)](https://ali36saadat.github.io/repositories/dotfiles)
+[![Header](https://github.com/user-attachments/assets/54b8431e-9d50-4167-8000-23d7f62ffc56)](https://ali36saadat.github.io/repositories/dotfiles)
 
 ## Description
 [Arch Linux](https://www.archlinux.org/) bootstrap scripts. Fork of [ASafaeirad - architect](https://github.com/ASafaeirad/architect)
